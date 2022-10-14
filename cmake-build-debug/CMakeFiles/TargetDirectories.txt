@@ -1,0 +1,12 @@
+/Users/yjp/nju/大三下/graphics/offline-render/lajolla_public/cmake-build-debug/CMakeFiles/lajolla_lib.dir
+/Users/yjp/nju/大三下/graphics/offline-render/lajolla_public/cmake-build-debug/CMakeFiles/lajolla.dir
+/Users/yjp/nju/大三下/graphics/offline-render/lajolla_public/cmake-build-debug/CMakeFiles/test_filter.dir
+/Users/yjp/nju/大三下/graphics/offline-render/lajolla_public/cmake-build-debug/CMakeFiles/test_frame.dir
+/Users/yjp/nju/大三下/graphics/offline-render/lajolla_public/cmake-build-debug/CMakeFiles/test_image.dir
+/Users/yjp/nju/大三下/graphics/offline-render/lajolla_public/cmake-build-debug/CMakeFiles/test_intersection.dir
+/Users/yjp/nju/大三下/graphics/offline-render/lajolla_public/cmake-build-debug/CMakeFiles/test_materials.dir
+/Users/yjp/nju/大三下/graphics/offline-render/lajolla_public/cmake-build-debug/CMakeFiles/test_matrix.dir
+/Users/yjp/nju/大三下/graphics/offline-render/lajolla_public/cmake-build-debug/CMakeFiles/test_mipmap.dir
+/Users/yjp/nju/大三下/graphics/offline-render/lajolla_public/cmake-build-debug/CMakeFiles/test.dir
+/Users/yjp/nju/大三下/graphics/offline-render/lajolla_public/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/yjp/nju/大三下/graphics/offline-render/lajolla_public/cmake-build-debug/CMakeFiles/rebuild_cache.dir

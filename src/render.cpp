@@ -89,7 +89,10 @@ Image3 path_render(const Scene &scene) {
                 Spectrum radiance = make_zero_spectrum();
                 int spp = scene.options.samples_per_pixel;
                 for (int s = 0; s < spp; s++) {
-                    radiance += path_tracing(scene, x, y, rng);
+                    auto res =path_tracing(scene,x,y,rng);
+                    if( luminance(res)>5)
+                        res = Spectrum(0,0,0);
+                    radiance += res;
                 }
                 img(x, y) = radiance / Real(spp);
             }

@@ -1,0 +1,132 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-RelWithDebInfo-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "lajolla",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "lajolla::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lajolla-RelWithDebInfo-99cbf7fb0ad85f630936.json",
+					"name" : "lajolla",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lajolla_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lajolla_lib-RelWithDebInfo-9cb67fe7d7d0da26ea26.json",
+					"name" : "lajolla_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_filter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_filter-RelWithDebInfo-1ad38672f01c35e5c1d8.json",
+					"name" : "test_filter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_frame::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_frame-RelWithDebInfo-0e785321c351d433eb2d.json",
+					"name" : "test_frame",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_image::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_image-RelWithDebInfo-0558ad3e614e64c43c63.json",
+					"name" : "test_image",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_intersection::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_intersection-RelWithDebInfo-f00cb38d977a7eebce67.json",
+					"name" : "test_intersection",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_materials::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_materials-RelWithDebInfo-81ba0fbf358b8f00bb2a.json",
+					"name" : "test_materials",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_matrix::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_matrix-RelWithDebInfo-d4a2de0406a8b07d7287.json",
+					"name" : "test_matrix",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_mipmap::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_mipmap-RelWithDebInfo-77c55f5859ab72412ff1.json",
+					"name" : "test_mipmap",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/yjp/nju/\u5927\u4e09\u4e0b/graphics/offline-render/lajolla_public/cmake-build-release",
+		"source" : "/Users/yjp/nju/\u5927\u4e09\u4e0b/graphics/offline-render/lajolla_public"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -217,6 +217,10 @@ template <typename T>
 inline T dot(const TVector3<T> &v0, const TVector3<T> &v1) {
     return v0[0] * v1[0] + v0[1] * v1[1] + v0[2] * v1[2];
 }
+template <typename T>
+inline T absDot(const TVector3<T> &v0, const TVector3<T> &v1) {
+    return abs(dot(v0,v1));
+}
 
 template <typename T>
 inline TVector3<T> cross(const TVector3<T> &v0, const TVector3<T> &v1) {

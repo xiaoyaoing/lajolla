@@ -32,6 +32,9 @@ struct PathVertex {
     // are the same.
     int interior_medium_id = -1;
     int exterior_medium_id = -1;
+
+    bool refract = false;
+    bool explictRefract = false;
 };
 
 /// Intersect a ray with a scene. If the ray doesn't hit anything,

@@ -221,6 +221,7 @@ Spectrum path_tracing(const Scene &scene,
             // BSDF sampling failed. Abort the loop.
             break;
         }
+
         const BSDFSampleRecord &bsdf_sample = *bsdf_sample_;
         Vector3 dir_bsdf = bsdf_sample.dir_out;
         // Update ray differentials & eta_scale
@@ -247,9 +248,11 @@ Spectrum path_tracing(const Scene &scene,
             // We hit nothing, set G to 1 to account for the environment map contribution.
             G = 1;
         }
-
+        vertex.refract = bsdf_sample.refract;
+        vertex.explictRefract = true;
         Spectrum f = eval(mat, dir_view, dir_bsdf, vertex, scene.texture_pool);
         Real p2 = pdf_sample_bsdf(mat, dir_view, dir_bsdf, vertex, scene.texture_pool);
+        vertex.explictRefract = false;
         if (p2 <= 0) {
             // Numerical issue -- we generated some invalid rays.
             break;

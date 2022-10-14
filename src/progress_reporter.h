@@ -13,19 +13,19 @@ class ProgressReporter {
         std::lock_guard<std::mutex> lock(mutex);
         work_done += num;
         Real work_ratio = (Real)work_done / (Real)total_work;
-        fprintf(stdout,
-                "\r %.2f Percent Done (%llu / %llu)",
-                work_ratio * Real(100.0),
-                (unsigned long long)work_done,
-                (unsigned long long)total_work);
+//        fprintf(stdout,
+//                "\r %.2f Percent Done (%llu / %llu)",
+//                work_ratio * Real(100.0),
+//                (unsigned long long)work_done,
+//                (unsigned long long)total_work);
     }
     void done() {
         work_done = total_work;
-        fprintf(stdout,
-                "\r %.2f Percent Done (%llu / %llu)\n",
-                Real(100.0),
-                (unsigned long long)work_done,
-                (unsigned long long)total_work);
+//        fprintf(stdout,
+//                "\r %.2f Percent Done (%llu / %llu)\n",
+//                Real(100.0),
+//                (unsigned long long)work_done,
+//                (unsigned long long)total_work);
     }
     uint64_t get_work_done() const {
         return work_done;

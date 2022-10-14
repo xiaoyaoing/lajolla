@@ -79,7 +79,7 @@ struct get_texture_op {
 
 #include "materials/lambertian.inl"
 #include "materials/roughplastic.inl"
-#include "materials/roughdielectric.inl"
+#include "materials/roughdielectric.h"
 #include "materials/disney_diffuse.inl"
 #include "materials/disney_metal.inl"
 #include "materials/disney_glass.inl"

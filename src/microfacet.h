@@ -80,6 +80,14 @@ inline Real smith_masking_gtr2(const Vector3 &v_local, Real roughness) {
     return 1 / (1 + Lambda);
 }
 
+inline Real smith_masking_gtr2_anisotropy(const Vector3 &v_local, Real alphaX,Real alphaY) {
+    Real ax2 =  alphaX * alphaX;
+    Real ay2 = alphaY * alphaY;
+    Vector3 v2 = v_local * v_local;
+    Real Lambda = (-1 + sqrt(1 + (v2.x * ax2 + v2.y * ay2) / v2.z)) / 2;
+    return 1 / (1 + Lambda);
+}
+
 /// See "Sampling the GGX Distribution of Visible Normals", Heitz, 2018.
 /// https://jcgt.org/published/0007/04/01/
 inline Vector3 sample_visible_normals(const Vector3 &local_dir_in, Real alpha, const Vector2 &rnd_param) {

@@ -135,6 +135,7 @@ struct BSDFSampleRecord {
     // The index of refraction ratio. Set to 0 if it's not a transmission event.
     Real eta;
     Real roughness; // Roughness of the selected BRDF layer ([0, 1]).
+    bool refract = false;
 };
 
 /// Given incoming direction pointing outwards of the surface point,

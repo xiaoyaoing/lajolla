@@ -5,30 +5,6 @@
 		<integer name="maxDepth" value="-1"/>
 	</integrator>
 
-	<shape type="serialized">
-		<string name="filename" value="../matpreview/matpreview.serialized"/>
-		<integer name="shapeIndex" value="2"/>
-		<transform name="toWorld">
-			<matrix value="0.614046 0.614047 0 -1.78814e-07 -0.614047 0.614046 0 2.08616e-07 0 0 0.868393 1.02569 0 0 0 1"/>
-			<translate z="0.01"/>
-		</transform>
-
-		<bsdf type="disneybsdf">
-			<rgb name="baseColor" value="0.82 0.67 0.16"/>
-			<float name="specularTransmission" value="0.5"/>
-			<float name="metallic" value="0.5"/>
-			<float name="subsurface" value="0.5"/>
-			<float name="specular" value="0.5"/>
-			<float name="roughness" value="0.1"/>
-			<float name="specularTint" value="0.5"/>
-			<float name="anisotropic" value="0.5"/>
-			<float name="sheen" value="0.5"/>
-			<float name="sheenTint" value="0.5"/>
-			<float name="clearcoat" value="0.5"/>
-			<float name="clearcoatGloss" value="0.5"/>
-			<float name="eta" value="1.5"/>
-		</bsdf>
-	</shape>
 
 	<sensor type="perspective" id="Camera-camera">
 		<string name="fovAxis" value="smaller"/>
@@ -78,11 +54,40 @@
 		<ref name="reflectance" id="__planetex"/>
 	</bsdf>
 
-	<shape type="serialized" id="Interior-mesh_0">
+	<shape type="serialized" id="Shell5">
+		<string name="filename" value="../matpreview/matpreview.serialized"/>
+		<integer name="shapeIndex" value="2"/>
+		<transform name="toWorld">
+			<matrix value="0.614046 0.614047 0 -1.78814e-07 -0.614047 0.614046 0 2.08616e-07 0 0 0.868393 1.02569 0 0 0 1"/>
+			<scale x="0.5" y="0.5" z="0.5"/>
+			<translate z="0.01"/>
+			<translate x="-2.5" y="1.5" z="-0.75"/>
+		</transform>
+
+		<bsdf type="disneybsdf">
+			<rgb name="baseColor" value="0.5 0.9 0.84"/>
+			<float name="specularTransmission" value="1.0"/>
+			<float name="metallic" value="0.0"/>
+			<float name="subsurface" value="1.0"/>
+			<float name="specular" value="1.0"/>
+			<float name="roughness" value="0.1"/>
+			<float name="specularTint" value="0.5"/>
+			<float name="anisotropic" value="0.1"/>
+			<float name="sheen" value="0.5"/>
+			<float name="sheenTint" value="0.5"/>
+			<float name="clearcoat" value="0"/>
+			<float name="clearcoatGloss" value="0.5"/>
+			<float name="eta" value="1.5"/>
+		</bsdf>
+	</shape>
+
+	<shape type="serialized" id="Interior5">
 		<string name="filename" value="../matpreview/matpreview.serialized"/>
 		<integer name="shapeIndex" value="1"/>
 		<transform name="toWorld">
+			<scale x="0.5" y="0.5" z="0.5"/>
 			<matrix value="1 0 0 0 0 1 0 0 0 0 1 0.0252155 0 0 0 1"/>
+			<translate x="-2.5" y="1.5" z="-0.75"/>
 		</transform>
 
 		<ref name="bsdf" id="__diffmat"/>

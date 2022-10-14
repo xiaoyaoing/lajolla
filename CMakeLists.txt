@@ -32,7 +32,7 @@ set(SRCS src/3rdparty/miniz.h
          src/lights/diffuse_area_light.inl
          src/lights/envmap.inl
          src/materials/lambertian.inl
-         src/materials/roughdielectric.inl
+        src/materials/roughdielectric.h
          src/materials/roughplastic.inl
          src/materials/disney_diffuse.inl
          src/materials/disney_metal.inl

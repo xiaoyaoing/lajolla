@@ -1,0 +1,27 @@
+# ninja log v5
+2	18212	1665071645923474022	CMakeFiles/lajolla_lib.dir/src/3rdparty/pugixml.cpp.o	ebd282a4f86d27ce
+11783	15409	1665071643119945259	CMakeFiles/lajolla_lib.dir/src/volume.cpp.o	23f916b8f1324e24
+11	8942	1665652774324257788	CMakeFiles/lajolla.dir/src/main.cpp.o	732061865addeb3c
+3937	18537	1665071646247879729	CMakeFiles/lajolla_lib.dir/src/parse_obj.cpp.o	fcdfcb082b1123b
+9	13112	1665652777859526842	CMakeFiles/lajolla_lib.dir/src/scene.cpp.o	74e84d08976d8b94
+8	10869	1665652776300230763	CMakeFiles/lajolla_lib.dir/src/render.cpp.o	fc8aad5af44ee87e
+9	7710	1665652773160097619	CMakeFiles/lajolla_lib.dir/src/shape.cpp.o	f3516a9ae9be07f4
+5604	5781	1665661358985747008	lajolla	8db22a8d50a57a7e
+9767	12626	1665071640339768159	CMakeFiles/lajolla_lib.dir/src/table_dist.cpp.o	fde54a25526f63e9
+13	8633	1665071636334675818	CMakeFiles/lajolla_lib.dir/src/load_serialized.cpp.o	78ea8e26e25a6dbc
+10519	12489	1665071640204519234	CMakeFiles/lajolla_lib.dir/src/transform.cpp.o	467edaad29a2d5af
+4	25111	1665071652816924087	CMakeFiles/lajolla_lib.dir/src/image.cpp.o	4a95c223f71a6160
+8	29029	1665652794475180671	CMakeFiles/lajolla_lib.dir/src/parse_scene.cpp.o	d5989714f7233a27
+1	11782	1665071639499153371	CMakeFiles/lajolla_lib.dir/src/3rdparty/miniz.c.o	e7a9420c4e83d2a9
+3829	9766	1665071637479833022	CMakeFiles/lajolla_lib.dir/src/parallel.cpp.o	af9e854b9a5f8367
+17	5100	1665071632813785745	CMakeFiles/lajolla_lib.dir/src/medium.cpp.o	51b49b758d334cf5
+7	8958	1665652774405371692	CMakeFiles/lajolla_lib.dir/src/light.cpp.o	da8a7ff569ce73df
+2	3937	1665071631643885500	CMakeFiles/lajolla_lib.dir/src/camera.cpp.o	e4f227a63c9f73c4
+5210	5604	1665661358816573000	liblajolla_lib.a	c461e998fa1cd9db
+12	5209	1665661358407377304	CMakeFiles/lajolla_lib.dir/src/material.cpp.o	d2db7b1ec5159344
+6615	10518	1665071638232594293	CMakeFiles/lajolla_lib.dir/src/phase_function.cpp.o	8d5deb589eab6b5
+6	7711	1665652773159870747	CMakeFiles/lajolla_lib.dir/src/intersection.cpp.o	f653894d87e6368e
+3	3827	1665071631541622035	CMakeFiles/lajolla_lib.dir/src/filter.cpp.o	7c2d70f44d29f1be
+14	5977	1665727913757761111	CMakeFiles/lajolla_lib.dir/src/material.cpp.o	d2db7b1ec5159344
+5978	6405	1665727914200117000	liblajolla_lib.a	c461e998fa1cd9db
+6405	6637	1665727914427491550	lajolla	8db22a8d50a57a7e
